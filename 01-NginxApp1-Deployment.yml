@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: app1-nginx
-          image: busybox
+          image: nginx
           imagePullPolicy: Always
           ports:
             - containerPort: 80
